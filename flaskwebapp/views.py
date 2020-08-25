@@ -12,7 +12,7 @@ def home():
     """Renders the home page."""
     return render_template(
         'index.jade',
-        title='Home Page',
+        title='Home Page for Toms Demo',
         year=datetime.now().year,
     )
 
